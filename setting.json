@@ -1,0 +1,96 @@
+// Place your settings in this file to overwrite the default settings
+{
+	//editor
+	"editor.tabSize": 4,
+	"editor.fontSize": 11,
+	"editor.wordWrap": "on",
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.formatOnType": false,
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": false,
+	"editor.insertSpaces": false,
+	"editor.wrappingIndent": "same",
+	"editor.suggestOnTriggerCharacters": true,
+	"editor.tabCompletion": true,
+	
+	//git 
+	"git.confirmSync": false,
+	// stylelint config
+	"stylelint.enable": true,
+	"css.validate": false,
+	"scss.validate": false,
+	// "stylelint.additionalDocumentSelectors": ["vue", "vue-html","javascriptreact"],
+	//eslint config
+	"eslint.trace.server": "off",
+	"eslint.run": "onSave",
+	"eslint.validate": [
+	  "javascript",
+	  "javascriptreact",
+	  {
+		"language": "vue",
+		"autoFix": true
+	  },
+	  {
+		"language": "html",
+		"autoFix": true
+	  }
+	],
+	"eslint.options": {
+	  "plugins": [
+		"html"
+	  ]
+	},
+	"eslint.autoFixOnSave": true,
+	"[markdown]": {
+	  "editor.formatOnSave": true,
+	  "editor.renderWhitespace": "all",
+	  "editor.acceptSuggestionOnEnter": "smart"
+	},
+	"[typescript]": {
+	  "editor.formatOnSave": true,
+	  "editor.formatOnPaste": true
+	},
+	// emmet
+	"emmet.useNewEmmet": false,
+	"emmet.syntaxProfiles": {
+	  "vue-html": "html"
+	},
+	"emmet.includeLanguages": {
+	  "vue-html": "html",
+	  "javascript": "javascriptreact"
+	},
+	// file exculde
+	"files.exclude": {
+	  "**/.svn": true,
+	  "**/.hg": true,
+	  "**/CVS": true,
+	  "**/.DS_Store": true,
+	  "**/.git": true
+	},
+	//css, scss,less rc
+	"css.lint.duplicateProperties": "warning",
+	"scss.lint.duplicateProperties": "warning",
+	"less.lint.duplicateProperties": "warning",
+	"scss.lint.boxModel": "warning",
+	"scss.lint.universalSelector": "warning",
+	"scss.lint.ieHack": "warning",
+	"scss.lint.unknownVendorSpecificProperties": "warning",
+	"scss.lint.float": "warning",
+	"scss.lint.idSelector": "warning",
+	//workbench
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.sideBar.location": "left",
+	"workbench.iconTheme": "vs-seti",
+	"workbench.colorTheme": "One Dark Pro",
+	// vetur rc
+	"vetur.format.styleInitialIndent": true,
+	"vetur.format.js.InsertSpaceBeforeFunctionParenthesis": true,
+	"vetur.validation.template": false,
+	"vetur.validation.script": true,
+	"vetur.validation.style": true,
+	"vetur.colorDecorators.enable": true,
+	"vetur.format.html.wrap_attributes": "force-aligned",
+	"vetur.format.scriptInitialIndent": true
+	
+  }
